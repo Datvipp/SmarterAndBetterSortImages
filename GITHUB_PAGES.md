@@ -14,7 +14,7 @@ Trigger: git push origin main
    ↓
 GitHub Actions starts (ubuntu-latest)
    ↓
-Node.js 18 setup + npm cache
+Node.js 22.12.0 setup + npm cache
    ↓
 npm install
    ↓
@@ -111,7 +111,7 @@ The workflow runs automatically on:
 
 The GitHub Actions workflow will:
 1. Checkout code
-2. Setup Node.js 18
+2. Setup Node.js 22.12.0
 3. Install dependencies (using npm cache)
 4. Run `npm run build`
 5. Deploy dist/ to gh-pages branch

@@ -29,7 +29,7 @@ A modern, privacy-first photo management platform built with React + TypeScript 
 
 ### Prerequisites
 ```bash
-node >= 18
+node >= 22.12.0
 npm >= 9
 ```
 

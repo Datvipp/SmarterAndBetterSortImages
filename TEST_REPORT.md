@@ -225,7 +225,7 @@ Memory Usage: < 100MB on startup ✅
 
 ### Workflow
 - [x] Triggers on push to main
-- [x] Node.js 18 setup
+- [x] Node.js 22.12.0 setup
 - [x] Dependencies caching
 - [x] Build succeeds
 - [x] Deploys to gh-pages

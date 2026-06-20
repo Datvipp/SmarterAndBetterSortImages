@@ -37,7 +37,7 @@
 ## 🔧 Local Setup
 
 ### Prerequisites
-- Node.js >= 18
+- Node.js >= 22.12.0
 - npm >= 9
 
 ### Installation
