@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <PhotoProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<PhotosPage />} />
           <Route path="/albums" element={<AlbumsPage />} />
